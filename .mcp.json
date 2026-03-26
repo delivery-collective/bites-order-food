@@ -7,7 +7,7 @@
       "API_BASE_URL": "https://api.deliverycollective.com/api/v1",
       "AUTH_ISSUER": "https://api.deliverycollective.com",
       "STOREFRONT_WEB_BASE_URL": "https://withbites.com",
-      "WIDGETS_BASE_URL": "http://localhost:5173",
+      "WIDGETS_BASE_URL": "https://withbites.com",
       "WIDGET_DOMAIN": "https://withbites.com",
       "ASSETS_ORIGIN": "https://assets.withbites.com"
     }
