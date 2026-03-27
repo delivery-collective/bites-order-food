@@ -1,6 +1,7 @@
 ---
 name: order-food
 description: Order food from local restaurants conversationally using Bites
+allowed-tools: ["mcp__plugin_bites-order-food_bites__*"]
 ---
 
 # Order Food with Bites

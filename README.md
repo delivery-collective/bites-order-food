@@ -5,19 +5,13 @@ Order food from local restaurants conversationally in Claude Code. Search restau
 ## Prerequisites
 
 1. **Claude Code** installed
-2. **bites-mcp-server** configured as an MCP server in your Claude Code settings
+
+That's it. The plugin automatically connects to the Bites MCP server -- no manual server setup required.
 
 ## Installation
 
 ```bash
 claude plugin add delivery-collective/bites-order-food
-```
-
-Or manually:
-
-```bash
-git clone https://github.com/delivery-collective/bites-order-food.git
-claude --plugin-dir ./bites-order-food
 ```
 
 ## Usage
@@ -38,14 +32,14 @@ The assistant walks you through:
 
 ## Authentication
 
-The plugin delegates auth to the MCP server. Two modes:
+The plugin supports two modes:
 
 - **Authenticated (OAuth2):** See rewards balances, past orders, and favorites
 - **Guest mode:** Search, browse, and place orders without logging in
 
 ## How It Works
 
-The plugin is a Claude Code skill (prompt file) that orchestrates the [bites-mcp-server](https://github.com/delivery-collective/dci/tree/dev/mcp-server) tools:
+The plugin is a Claude Code skill that orchestrates the Bites MCP server tools:
 
 | Tool | Purpose |
 |------|---------|

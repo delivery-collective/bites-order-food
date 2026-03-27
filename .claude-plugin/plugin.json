@@ -1,12 +1,10 @@
 {
   "name": "bites-order-food",
   "description": "Order food from local restaurants conversationally in Claude Code. Search restaurants, browse menus, customize items, and check out -- all without leaving the terminal.",
-  "version": "1.0.0",
   "author": {
     "name": "Delivery Collective",
     "email": "eng@deliverycollective.com"
   },
   "homepage": "https://withbites.com",
-  "repository": "https://github.com/delivery-collective/bites-order-food",
-  "license": "MIT"
+  "repository": "https://github.com/delivery-collective/bites-order-food"
 }
